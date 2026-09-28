@@ -1,0 +1,9 @@
+QT += core network testlib
+QT -= gui
+CONFIG += c++11 console testcase
+TEMPLATE = app
+TARGET = doctor_tests
+INCLUDEPATH += ../src
+SOURCES += test_doctor.cpp ../src/model.cpp ../src/platform.cpp ../src/engine.cpp
+HEADERS += ../src/model.h ../src/platform.h ../src/engine.h
+win32:LIBS += -lwinhttp

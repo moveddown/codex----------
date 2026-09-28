@@ -1,0 +1,5 @@
+{
+    "schema_version": 1,
+    "targets": ["chatgpt.com", "auth.openai.com"],
+    "description": "基础 HTTPS HEAD 探测目标，不是完整域名白名单。仅允许主机名，不使用认证接口或携带凭据。"
+}
